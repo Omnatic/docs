@@ -1,1 +1,1005 @@
-{"openapi":"3.0.3","info":{"title":"Omnatic API","description":"Omnatic API Documentation","version":"1.0.0"},"components":{"securitySchemes":{"apiKey":{"type":"apiKey","name":"X-API-KEY","in":"header"}},"schemas":{}},"paths":{"/sse":{"get":{"responses":{"200":{"description":"Default Response"}}}},"/messages":{"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/endpoints/data/{organizationCode}/{projectCode}/{endpointPath}/{type}?":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"head":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"trace":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"options":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"patch":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}},"post":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"organizationCode","required":true},{"schema":{"type":"string"},"in":"path","name":"projectCode","required":true},{"schema":{"type":"string"},"in":"path","name":"endpointPath","required":true},{"schema":{"type":"string"},"in":"path","name":"type","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/projects/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/projects/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/programs/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/programs/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/endpoints/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/endpoints/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/schedules/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/schedules/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/imports/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/imports/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/exports/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/exports/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/scripts/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/scripts/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/creatives/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/creatives/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/v1/notifications/":{"get":{"responses":{"200":{"description":"Default Response"}}},"post":{"responses":{"200":{"description":"Default Response"}}}},"/v1/notifications/{id}":{"get":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"put":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}},"delete":{"parameters":[{"schema":{"type":"string"},"in":"path","name":"id","required":true}],"responses":{"200":{"description":"Default Response"}}}},"/":{"get":{"responses":{"200":{"description":"Default Response"}}}}},"security":[{"apiKey":[]}]}
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Omnatic API",
+    "description": "Omnatic API Documentation",
+    "version": "1.0.0"
+  },
+  "components": {
+    "securitySchemes": {
+      "apiKey": {
+        "type": "apiKey",
+        "name": "X-API-KEY",
+        "in": "header"
+      }
+    },
+    "schemas": {
+
+    }
+  },
+  "paths": {
+    "/sse": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/messages": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/endpoints/data/{organizationCode}/{projectCode}/{endpointPath}/{type}?": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "head": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "trace": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "options": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "patch": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "organizationCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "projectCode",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "endpointPath",
+            "required": true
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "type",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/projects/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/projects/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/programs/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/programs/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/endpoints/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/endpoints/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/schedules/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/schedules/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/imports/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/imports/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/exports/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/exports/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/scripts/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/scripts/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/creatives/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/creatives/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/notifications/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/v1/notifications/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "put": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      },
+      "delete": {
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "path",
+            "name": "id",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Default Response"
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "apiKey": []
+    }
+  ]
+}
