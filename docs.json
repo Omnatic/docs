@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Omnatic Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2b76fe",
+    "light": "#2b76fe",
+    "dark": "#2b76fe"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -76,8 +76,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo-light.png",
+    "dark": "/logo/logo-light.png"
   },
   "navbar": {
     "links": [
