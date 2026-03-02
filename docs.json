@@ -17,12 +17,11 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "getting-started",
-              "development"
+              "getting-started"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Using Omnatic",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -31,6 +30,18 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Building Programs",
+            "pages": []
+          },
+          {
+            "group": "Using Endpoints",
+            "pages": []
+          },
+          {
+            "group": "Scripting",
+            "pages": []
           }
         ]
       },
