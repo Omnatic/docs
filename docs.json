@@ -23,12 +23,8 @@
           {
             "group": "Using Omnatic",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
               "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/projects"
             ]
           },
           {
@@ -41,7 +37,9 @@
           },
           {
             "group": "Scripting",
-            "pages": []
+            "pages": [
+              "omnatic-script"
+            ]
           }
         ]
       },
@@ -53,7 +51,7 @@
   },
   "logo": {
     "light": "/logo/logo-light.png",
-    "dark": "/logo/logo-dark.png",
+    "dark": "/logo/logo-light.png",
     "href": "https://omnatic.com"
   },
   "navbar": {
