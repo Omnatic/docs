@@ -7,7 +7,7 @@
     "light": "#2b76fe",
     "dark": "#2b76fe"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -77,7 +77,8 @@
   },
   "logo": {
     "light": "/logo/logo-light.png",
-    "dark": "/logo/logo-light.png"
+    "dark": "/logo/logo-dark.png",
+    "href": "https://omnatic.com"
   },
   "navbar": {
     "links": [
