@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
+              "getting-started",
               "development"
             ]
           },
@@ -36,7 +36,7 @@
       },
       {
         "tab": "API Reference",
-        "openapi": "openapi.json"
+        "openapi": "api-reference/openapi.json"
       }
     ]
   },
